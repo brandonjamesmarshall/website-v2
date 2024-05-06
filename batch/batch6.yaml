@@ -1,0 +1,31 @@
+# This file inscribes the first blog index on the same sat as index.blog.brandonmarshall.btc
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: same-sat
+
+# parent inscription:
+#parent: d5de75a56ea3e9ee2f2251ded0cc1d6e234ffa370e6a70af9d086d260c7f66e2i0
+
+# postage for each inscription:
+postage: 5000
+
+# allow reinscribing
+reinscribe: true
+
+# sat to inscribe on, can only be used with `same-sat`:
+sat: 75000000000
+
+# inscriptions to inscribe
+inscriptions:
+  # path to inscription content
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/src/blog.json
+  #destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall

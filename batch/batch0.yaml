@@ -1,0 +1,62 @@
+# This batch file was only used during regtest because all of these files already exist on mainnet
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: separate-outputs
+
+# parent inscription:
+#parent: 6ac5cacb768794f4fd7a78bf00f2074891fce68bd65c4ff36e77177237aacacai0
+
+# postage for each inscription:
+postage: 5000
+
+# allow reinscribing
+#reinscribe: true
+
+# sat to inscribe on, can only be used with `same-sat`:
+# sat: 5000000000
+
+inscriptions:
+# Below files are not needed on mainnet since they already exist
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/batch0/bitcoin.png
+  # destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall
+
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/batch0/twitter.svg
+  # destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall
+
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/batch0/linkedin.svg
+  # destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall
+
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/batch0/pfp.jpg
+  # destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall
+
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/batch0/brandonmarshall.txt
+  # destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+  metadata:
+    title: BrandonMarshall.btc
+    description: >
+      This file serves as the parent inscription for a recursion and endpoint experiment for a website created by Brandon Marshall

@@ -1,0 +1,31 @@
+# This inscribes a new style.css file onto the same sat as style.assets.brandonmarshall.btc
+
+# inscription modes:
+# - `same-sat`: inscribe on the same sat
+# - `satpoints`: inscribe on the first sat of specified satpoint's output
+# - `separate-outputs`: inscribe on separate postage-sized outputs
+# - `shared-output`: inscribe on a single output separated by postage
+mode: same-sat
+
+# parent inscription:
+#parent: 71df04bd81c69e914022172386cb6c784f873c615155d1c53983f28b7d9cf57ci0
+
+# postage for each inscription:
+postage: 5000
+
+# allow reinscribing
+reinscribe: true
+
+# sat to inscribe on, can only be used with `same-sat`:
+sat: 105000000000
+
+# inscriptions to inscribe
+inscriptions:
+  # path to inscription content
+- file: /Users/brandonmarshall/Library/CloudStorage/OneDrive-Personal/Desktop/Inscription Demo/try2/src/style.css
+  #destination: tb1pn3c0y2xkzvpwz9g67xu4pd52vz6vqx5q52ar5a0ujas6hr265ldq9uhxjf
+  # inscription metadata (optional)
+#  metadata:
+#    author: Brandon Marshall
+#    description: >
+#      This file serves as the parent inscription for the primary css file

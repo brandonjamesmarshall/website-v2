@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="GM from BrandonMarshall.btc">
+    <title>Brandon Marshall | Social Media Manager</title>
+    <link rel="icon" href="/content/aebfac47c4737a83e79d4b1643e90b3475748dab746270b81a1b40eda7f2ca56i1" type="image/x-icon"> <!-- Change to favicon.png -->
+    <script src="/content/aebfac47c4737a83e79d4b1643e90b3475748dab746270b81a1b40eda7f2ca56i2"></script> <!-- Change to Showdown.min.js -->
+</head>
+<body>
+    <div id="wrapper">
+        <div id="sidebar"></div>
+        <div id="content"></div>
+    </div>
+    <div id="footer"></div>
+    
+    <script>
+        // Fetch and concatenate Markdown content for the blog
+        function renderBlog(elementId) {
+            fetch('/r/sat/75000000000/at/-1') // Change to same sat as index.blog.brandonmarshall.btc
+                .then(response => response.json())
+                .then(data => {
+                    const id5 = data.id;
+                    const jsonUrl = '/content/' + id5;
+                    console.log("Index:" + jsonUrl);
+
+                    fetch(jsonUrl)
+                        .then(response => response.json())
+                        .then(data => {
+                            const ids = data.ids;
+                            const promises = ids.map(id => fetchAndParseMarkdown(id));
+                            Promise.all(promises)
+                                .then(posts => {
+                                    const concatenatedMarkdown = posts.join('\n\n---\n\n'); 
+                                    const converter = new showdown.Converter();
+                                    const html = converter.makeHtml(concatenatedMarkdown);
+                                    document.getElementById(elementId).innerHTML = html;
+
+                                    const contentLinks = document.querySelectorAll(`#${elementId} a`);
+                                    contentLinks.forEach(link => {
+                                        link.addEventListener('click', function(event) {
+                                            const linkUrl = link.getAttribute('href');
+                                            if (linkUrl.startsWith('http://') || linkUrl.startsWith('https://')) {
+                                                return;
+                                            }
+                                            event.preventDefault();
+                                            updateContent(linkUrl);
+                                        });
+                                        if (link.getAttribute('href').startsWith('http://') || link.getAttribute('href').startsWith('https://')) {
+                                            link.setAttribute('target', '_blank');
+                                        }
+                                    });
+                                });
+                        })
+                        .catch(error => console.error('Error fetching blog data:', error));
+                })
+                .catch(error => {
+                    console.error('Error fetching blog index:', error);
+                });
+        }
+
+
+        // Fetch and parse Markdown content from a URL
+        function fetchAndParseMarkdown(url) {
+            return fetch(url)
+                .then(response => response.text())
+                .catch(error => console.error('Error fetching Markdown content:', error));
+        }
+
+        // Fetch and render Markdown content
+        function renderMarkdown(url, elementId) {
+            fetch(url)
+                .then(response => response.text())
+                .then(text => {
+                    const converter = new showdown.Converter();
+                    const html = converter.makeHtml(text);
+                    
+                    document.getElementById(elementId).innerHTML = html;
+
+                    const contentLinks = document.querySelectorAll(`#${elementId} a`);
+                    contentLinks.forEach(link => {
+                        link.addEventListener('click', function(event) {
+                            const linkUrl = link.getAttribute('href');
+                            if (linkUrl.startsWith('http://') || linkUrl.startsWith('https://')) {
+                                return;
+                            }
+                            event.preventDefault();
+                            updateContent(linkUrl);
+                        });
+                        if (link.getAttribute('href').startsWith('http://') || link.getAttribute('href').startsWith('https://')) {
+                            link.setAttribute('target', '_blank');
+                        }
+                    });
+                })
+                .catch(error => console.error('Error fetching Markdown content:', error));
+        }
+
+        // Update main content based on internal links
+        function updateContent(url) {
+            renderMarkdown(url, 'content');
+        }
+        
+        // Render sidebar
+        fetch('/r/sat/430000005000/at/-1') // Change to sidebar.brandonmarshall.btc sat
+        .then(response => response.json())
+        .then(data => {
+            const id1 = data.id;
+            const sidebarid = '/content/' + id1;
+            console.log("Sidebar:" + sidebarid);
+            renderMarkdown(sidebarid, 'sidebar');
+        })
+        .catch(error => {
+            console.error('Error fetching sidebar:', error);
+        });
+
+        // Render default content
+        fetch('/r/sat/430000000000/at/-1') // Change to home.brandonmarshall.btc sat
+        .then(response => response.json())
+        .then(data => {
+            const id2 = data.id;
+            const defaultid = '/content/' + id2;
+            console.log("Default:" + defaultid);
+            renderMarkdown(defaultid, 'content');
+        })
+        .catch(error => {
+            console.error('Error fetching default:', error);
+        });
+
+        // Render footer
+        fetch('/r/sat/430000010000/at/-1') // Change to footer.brandonmarshall.btc sat
+        .then(response => response.json())
+        .then(data => {
+            const id3 = data.id;
+            const footerid = '/content/' + id3;
+            console.log("Footer:" + footerid);
+            renderMarkdown(footerid, 'footer');
+        })
+        .catch(error => {
+            console.error('Error fetching footer:', error);
+        });
+
+        // Set stylesheet
+        var styleElement = document.createElement('style');
+
+        fetch('/r/sat/105000000000/at/-1') // Change to style.assets.brandonmarshall.btc sat
+        .then(response => response.json())
+        .then(data => {
+            const id4 = data.id;
+            const styleid = '/content/' + id4;
+            console.log("CSS:" + styleid);
+            styleElement.textContent = `@import "${styleid}";`;
+            document.head.appendChild(styleElement);
+        })
+        .catch(error => {
+            console.error('Error fetching style:', error);
+        });
+
+    </script>
+</body>
+</html>
