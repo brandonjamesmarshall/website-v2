@@ -1,4 +1,5 @@
 # This website will live forever, but won't be stuck in the past.
+### Posted on May 5, 2024
 
 In June 2023, the most significant update to Ordinals dropped: **Recursion.**
 
@@ -97,4 +98,8 @@ I probably could have figured out a way to do this, but right now my website doe
 
 I designed this website for myself, but have also listed it up on my [GitHub](https://github.com/brandonjamesmarshall/website-v2/) along with the batch files I used to give you a full idea of how it was built. Please feel free to adapt this to make your own site!
 
-Altogether, this website takes up around 107kb of space, which costs roughly $450 to inscribe at 30 sat/vB. Mistakes can be very costly! I did a ton of testing in Regtest prior to inscribing these files for real to make sure I didn't mess anything up. 
+Altogether, this website takes up around 107kb of space, which costs roughly $450 to inscribe at 30 sat/vB. Mistakes can be very costly! I did a ton of testing in Regtest prior to inscribing these files for real to make sure I didn't mess anything up.
+
+I'm so appreciative to anyone who checked out my little experiment! 
+
+Anyone can build on Bitcoin! 🧡
