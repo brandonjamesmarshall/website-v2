@@ -1,5 +1,4 @@
 # This website will live forever, but won't be stuck in the past.
-### Posted on May 5, 2024
 
 In June 2023, the most significant update to Ordinals dropped: **Recursion.**
 
