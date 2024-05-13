@@ -8,7 +8,7 @@
 mode: separate-outputs
 
 # parent inscription is whatever inscription id brandonmarshall.btc is
-parent: bacc8b0c4d94be9274d9adabe6991573e1c8ecc504b2aac1117e28544909cc06i4
+parent: f84d281684bfc9966c983d7f5fff93d459a0855f671fbb668f7dbcaf7169a7d8i0
 
 # postage for each inscription:
 postage: 5000

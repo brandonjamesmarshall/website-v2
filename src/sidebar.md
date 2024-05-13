@@ -1,8 +1,8 @@
-[![Sidebar Image](/content/bacc8b0c4d94be9274d9adabe6991573e1c8ecc504b2aac1117e28544909cc06i3)](/content/a2a4e8554f6265a846370c1752c03c749c90e0a6ec5512fc60fccb2b594037bfi0) <!-- pfp.jpg | home.md -->
+[![Sidebar Image](/content/12e123387961518379f7494a9faf5ac6ee21df231aa9adb66e0fe90e8c8fd3aai0)](/content/d5c94cbe2cd8badbc8d89c522a4cd3ba1268236cff0a7bcc29d42eb9c8b33118i0) <!-- pfp.jpg | home.md -->
 
-### [Home](/content/a2a4e8554f6265a846370c1752c03c749c90e0a6ec5512fc60fccb2b594037bfi0) <!-- home.md -->
-### <a href="/content/ec55b024b769e5194509fbcfd93a0a3e2e4f38ecb1e6071825a5214e3f0599f1i0" onclick="renderBlog('content'); return false;">Blog</a> <!-- index.blog.brandonmarshall.btc -->
+### [Home](/content/d5c94cbe2cd8badbc8d89c522a4cd3ba1268236cff0a7bcc29d42eb9c8b33118i0) <!-- home.md -->
+### <a href="/content/cf9d5036e51266d4aaf26e15a9bd80e88fd82207c8407969bd56750632d06a4ci0" onclick="renderBlog('content'); return false;">Blog</a> <!-- index.blog.brandonmarshall.btc -->
 
-[![@marshallmixing Twitter](/content/bacc8b0c4d94be9274d9adabe6991573e1c8ecc504b2aac1117e28544909cc06i1 =30x30 "@marshallmixing Twitter")](https://x.com/marshallmixing) <!-- twitter.svg -->
+[![@marshallmixing Twitter](/content/434a0f224bf09495794e1477b4ab3fe3469093fa45fe50d25e9aa1ec947da545i0 =30x30 "@marshallmixing Twitter")](https://x.com/marshallmixing) <!-- twitter.svg -->
 
-[![Brandon Marshall LinkedIn](/content/bacc8b0c4d94be9274d9adabe6991573e1c8ecc504b2aac1117e28544909cc06i2 =30x30 "Brandon Marshall LinkedIn")](https://www.linkedin.com/in/brandonjamesmarshall/) <!-- linkedin.svg -->
+[![Brandon Marshall LinkedIn](/content/1be2c104bd801d080d8e2995a889eb8d69b820e59b37c5affcbee15cf86cfd7di0 =30x30 "Brandon Marshall LinkedIn")](https://www.linkedin.com/in/brandonjamesmarshall/) <!-- linkedin.svg -->

@@ -1,21 +1,14 @@
 # Brandon Marshall
-## I write about Bitcoin and lead social at Trust Machines, a Bitcoin company that produces Leather wallet, Orange Domains, and more!
+## I write about Bitcoin and lead social media at Trust Machines, a Bitcoin company that produces Leather wallet, Orange Domains, and more!
 
-### About Me
-I first bought Bitcoin in 2014 after hearing some buzz about it on the internet, only to sell it all a few months later. In early 2017, one of my customers struck up a conversation with me about Bitcoin, which prompted me to take a second look. After doing much more research this time around, I fell down the rabbit hole and have been a fan ever since.
+I first bought Bitcoin in 2014 after reading a blog citing it as the future of money. But after realizing I couldn't do anything with it, I sold it a short while later, and quickly forgot about it.
 
-### Professional Experience
+In early 2017, I was working at Microsoft at the time and one of my customers struck up a conversation with me about crypto, which prompted me to take a second look. I rode the crypto waves up during the 2017 peak, then down during the 2018 crash. 
 
-#### Trust Machines
-Social Media Manager, January 2023 - Present
+During that time, I concluded that Bitcoin was the only crypto I wanted to pursue, and truly fell down the orange-pilled rabbit hole.
 
-#### BlockFi
-Social Media & Community Manager, March 2021 - January 2023
+I've since ended up at Trust Machines, a Bitcoin company that is focused on building apps on Bitcoin and expanding Bitcoin's use cases.
 
-#### Microsoft
-Various Sales & Support roles, March 2012 - March 2021
+It's been roughly 10 years since I had originally sold my Bitcoin. But now, a new Bitcoin economy is thriving!
 
-### Projects
-
-#### Shorty Awards Finalist - Integrated Campaign
-I was nominated, along with my team, for a Shorty Award for our work in launching the world's first Bitcoin rewards credit card. I was responsible for community management and campaign activation across social media, which played a big part in the card's pre-launch hype and success.
+This website, fully inscribed on Bitcoin, represents some of the recent developments on Bitcoin that have really excited me. Check out the blog to learn more about how it works!

@@ -1,5 +1,5 @@
 # RUNES: How to go from 0 to 100% indexed in under 48 hours
-### Posted on May 5, 2024
+### Inscribed on May 9, 2024
 
 This guide will help you get a fully indexed Bitcoin and ord set up in minimal time. This borrows heavily from the excellent "Mac beginner's guide" by ETS in The Ordicord, with some heavy modifications on my part to improve the speed of indexing and get you up to date as soon as possible.
 
@@ -19,7 +19,7 @@ This is technically optional, but **highly** recommended as it will save you a t
 
 Visit the following page to download the latest index, choosing the latest version (as of this writing is 0.18): [https://ordstuff.info/indexes/](https://ordstuff.info/indexes/)
 
-Be sure to select the file that includes **without** because for Runes, we don't need the sat index and this will only waste time and space.
+If you're only wanting to deal with Runes, choose the file that includes **without** to save time and space. If you plan to also inscribe on specific sats, then choose the **with** option.
 
 You'll need to use a torrent app like TransmissionBT to download this file. After you download it, you'll need to unzip it, after which you'll be left with a file called something like `index-0.18-without-838791.redb`.
 

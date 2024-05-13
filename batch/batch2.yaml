@@ -8,7 +8,7 @@
 mode: separate-outputs
 
 # parent inscription:
-parent: 2b3f444a1de4691ef7f781c562d46bb5c59d627522ff17fc1d9f3a4a7168a4ebi4
+parent: a533936333a47e7aa90249f3beef69dc38c2455b00748b207376c62ce5ad56f9i4
 
 # postage for each inscription:
 postage: 5000

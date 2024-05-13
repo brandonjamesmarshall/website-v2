@@ -17,7 +17,7 @@ postage: 5000
 reinscribe: true
 
 # sat to inscribe on, can only be used with `same-sat`:
-sat: 75000000000
+sat: 597013077412260
 
 # inscriptions to inscribe
 inscriptions:
